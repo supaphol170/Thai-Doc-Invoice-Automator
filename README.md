@@ -35,6 +35,9 @@ invoice_ocr/
 ├── exporter.py     # DataFrame to Excel transformation
 └── ui.py           # Streamlit rendering components
 
+🖨️ **Example Output**
+![img](img/output.png)
+
 🚀 **Quick Start**
 1. **Clone the repository** ```git clone https://github.com/supaphol170/Thai-Doc-Invoice-Automator.git & cd Thai-Doc-Invoice-Automator```
 2. **Install Dependencies** ```pip install -r requirements.txt```
