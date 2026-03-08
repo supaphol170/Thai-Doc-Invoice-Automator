@@ -3,34 +3,22 @@ Thai-Doc-Invoice-Automator is a Python-powered automation tool designed to extra
 
 ✨ **Key Features**
 
-🔍 Multi-format Support: Seamlessly handles both images (JPG, PNG) and PDF files.
-
-🇹🇭 Thai Language Precision: * Images: Leverages EasyOCR (Thai + English) to process complex scans and photos.
-
-Digital PDFs: Uses pdfplumber for direct text-layer extraction, ensuring 100% accuracy for digital documents.
-
-🤖 Automated Structuring: Intelligent data parsing using Regex + Table Extraction logic.
-
-🎨 User-Friendly UI: Modern and intuitive web interface built with Streamlit.
-
-📊 Export Ready: Instant download of results in Excel (.xlsx) format with auto-adjusted column widths.
-
-🚫 No Poppler Required: Easy installation—uses pdfplumber instead of pdf2image, removing complex external dependencies.
+🔍 Multi-format Support: Seamlessly handles both images (JPG, PNG) and PDF files.\
+🇹🇭 Thai Language Precision: * Images: Leverages EasyOCR (Thai + English) to process complex scans and photos.\
+Digital PDFs: Uses pdfplumber for direct text-layer extraction, ensuring 100% accuracy for digital documents.\
+🤖 Automated Structuring: Intelligent data parsing using Regex + Table Extraction logic.\
+🎨 User-Friendly UI: Modern and intuitive web interface built with Streamlit.\
+📊 Export Ready: Instant download of results in Excel (.xlsx) format with auto-adjusted column widths.\
+🚫 No Poppler Required: Easy installation—uses pdfplumber instead of pdf2image, removing complex external dependencies.\
 
 📦 **Extracted Fields**
 
 * **Invoice No:** Tax Invoice / Receipt Number
-
 * **Date:** Document issue date
-
 * **Vendor/Customer:** Company names and billing addresses
-
 * **Tax ID:** Thai Tax Identification Numbers
-
 * **Items Table:** "Product descriptions, Quantity, Unit Price, and Line Amounts"
-
 * **Totals:** "Subtotal, VAT (7%), and Grand Total"
-
 * **Currency:** Automatic detection (THB / USD)
 
 🛠 **Tech Stack**
