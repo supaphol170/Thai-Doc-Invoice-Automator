@@ -1,0 +1,7 @@
+streamlit 
+easyocr 
+pdfplumber 
+pandas 
+openpyxl 
+pillow 
+numpy
